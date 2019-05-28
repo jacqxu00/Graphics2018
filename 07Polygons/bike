@@ -1,0 +1,43 @@
+#wheels
+torus
+400 0 0 15 75
+torus
+100 0 0 15 75
+ident
+rotate
+x 90
+move
+0 150 0
+apply
+
+#axel
+sphere
+400 150 0 15
+sphere
+100 150 0 15
+
+#bars
+box
+100 160 10 300 25 25
+box
+90 300 10 25 150 25
+box
+390 400 10 25 250 25
+
+#seat
+box
+70 320 20 100 20 40
+
+#handlebar
+box
+365 445 180 25 25 240
+
+ident
+rotate
+x 20
+rotate
+y 20
+apply
+display
+save
+bike.png

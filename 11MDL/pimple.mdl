@@ -1,0 +1,27 @@
+push
+move 250 100 0
+sphere 0 0 0 230
+push
+move -100 0 180
+sphere 0 0 0 50
+push
+move 200 0 0
+sphere 0 0 0 50
+push
+move 0 90 40
+rotate x 45
+box -60 10 5 120 20 10
+push
+move -200 0 0
+box -60 10 5 120 20 10
+push
+rotate x -45
+move 100 -90 30
+rotate y 50
+box -30 0 10 60 120 20
+push
+rotate y -50
+move -30 150 -80
+sphere 0 0 0 5
+display
+save pimple.png

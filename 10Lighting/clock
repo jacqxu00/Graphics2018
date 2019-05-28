@@ -1,0 +1,29 @@
+push
+move
+250 250 0
+rotate
+x 90
+torus
+0 0 0 16 200
+sphere
+0 0 0 16
+push
+rotate
+x -90
+move
+0 80 0
+box
+-8 80 8 16 160 16
+push
+move
+0 -80 0
+rotate
+z 60
+move
+0 40 0
+box
+-8 40 8 16 80 16
+
+display
+save
+clock.png
